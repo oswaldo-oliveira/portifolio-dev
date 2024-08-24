@@ -1,0 +1,141 @@
+.main-header {
+  margin-block: 72px 56px;
+  text-align: center;
+
+  span {
+    font: var(--text-subtitle);
+    color: var(--red-color);
+  }
+
+  h2 {
+    font: var(--text-title-md);
+    color: var(--gray-600);
+
+    margin-block: 8px;
+  }
+}
+
+#projects {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: auto;
+  gap: 24px;
+
+  width: 1040px;
+  margin-bottom: 144px;
+}
+
+.card {
+  background-color: var(--gray-300);
+  border-radius: 12px;
+  padding: 12px;
+  width: 306px;
+
+  img {
+    text-align: cen;
+    width: 306px;
+    border-radius: 8px;
+  }
+
+  h3 {
+    font: var(--text-title-sm);
+    color: var(--gray-600);
+
+    margin-block: 24px 8px;
+  }
+  p {
+    font: var(--text-sm);
+    padding-bottom: 5px;
+  }
+}
+
+.card:hover {
+  border: solid 1px var(--gray-400);
+}
+
+#services-container {
+  background-color: var(--gray-100);
+  padding-block: 16px 120px;
+}
+
+#services {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  gap: 24px;
+}
+
+.card-services {
+  border: solid 2px #e2e4e90e;
+  border-radius: 12px;
+  width: 320px;
+  padding: 20px;
+
+  img {
+    margin-bottom: 20px;
+    width: 48px;
+  }
+
+  h3 {
+    font: var(--text-title-sm);
+    color: var(--gray-600);
+    margin-bottom: 8px;
+  }
+}
+
+#contacts-container {
+  padding-block: 128px 200px;
+  text-align: center;
+
+  background-image: url(../assets/images/Background_Contacts.png);
+  background-size: cover;
+}
+
+#contact-header {
+  margin-bottom: 48px;
+
+  span {
+    font: var(--text-subtitle);
+    color: var(--purple-color);
+  }
+
+  h2 {
+    font: var(--text-title-md);
+    color: var(--gray-600);
+    margin-block: 8px;
+  }
+}
+
+li {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 16px;
+}
+
+li a {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  width: 400px;
+
+  border-radius: 8px;
+
+  background-color: var(--gray-300);
+
+  div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+
+    span {
+      font: var(--text-md);
+    }
+  }
+}
+
+a:hover {
+  border: solid 1px var(--blue-color);
+}

@@ -1,10 +1,3 @@
-#container-profile {
-  background-image: url(../assets/images/Background_Intro.png);
-  background-size: cover;
-
-  height: 750px;
-}
-
 header {
   text-align: center;
   padding-inline: 163px;
@@ -80,5 +73,5 @@ header {
 #caretDoubleDown {
   height: 32px;
   object-fit: cover;
-  margin-top: 94px;
+  margin-block: 94px 57px;
 }

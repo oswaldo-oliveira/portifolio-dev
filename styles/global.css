@@ -27,18 +27,18 @@
 
   --text-title-lg: 800 56px/120% var(--font-family-asap);
   --text-title-md: 800 24px/120% var(--font-family-asap);
-  --text-tile-sm: 800 16px/120% var(--font-family-asap);
+  --text-title-sm: 800 16px/120% var(--font-family-asap);
 
   --text-subtitle: 400 20px/120% var(--font-family-inconsolata);
 
-  --text-md: 400 16px/140% var(--font-family-maven);
+  --text-md: 500 16px/140% var(--font-family-maven);
   --text-sm: 400 14px/140% var(--font-family-maven);
 }
 
 body {
   font: var(--text-md);
   color: var(--gray-500);
-  background-color: var(--gray-300);
+  background-color: var(--gray-200);
 }
 
 a {
@@ -48,4 +48,9 @@ a {
 
 img {
   max-width: 100%;
+}
+
+#container-profile {
+  background-image: url(../assets/images/Background_Intro.png);
+  background-size: cover;
 }
